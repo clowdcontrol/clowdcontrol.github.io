@@ -7,7 +7,7 @@ To recreate the clowdcontrol demo:
 ```bash
 mkdir clowdcontrol_demo
 cd clowdcontrol_demo
-docker run --rm -ti -v $PWD:/data clowdcontrol/abide-fs
+docker run --rm -ti -v $PWD:/data clowdcontrol/abide-fs:v0.1
 ```
 
 2. Prepare the data for mindcontrol by running the `freesurfer_prep` docker image:
@@ -22,4 +22,4 @@ docker run -ti --rm -v $PWD/data:/data clowdcontrol/freesurfer_prep:v2.0
 docker run -it --rm -v ${PWD}/.mindcontrol/:/home/mindcontrol/mindcontrol/.meteor/local -v $PWD/data:/bids -p 3000:3000 -p 8080:8080 clowdcontrol/mindcontrol:v0.3
 ```
 
-Open Google Chrome to http://localhost:3000 to view the demo data
+Open Google Chrome to [http://localhost:3000](http://localhost:3000) to view the demo data
