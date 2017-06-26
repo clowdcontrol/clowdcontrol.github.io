@@ -27,7 +27,7 @@
 <script src="lib/js/html5shiv.js"></script>
 <![endif]-->
 
-<title>BrainHack 101</title>
+<title>ClowdControl</title>
 </head>
 
 <body>
@@ -39,94 +39,74 @@
 
 	<section id="front-matter" data-background="img/bg.png">
 		<section id="title" data-background="img/bg.png">
-			<h1 style="display:inline">BrainHack </h1>
-			<img style="border:0px; margin:-60px 0px" height="170px" data-src="./img/101.svg" alt="101">
-			<h1 style="display:inline"> :</h1>
-			<h3>A Beginners Guide to Computational Neuroscience</h3>
+			<h2 style="display:inline">ClowdControl</h2>
+			<img style="border:0px; margin:-240px 0px" height="350px" data-src="./img/clowder.svg" alt="101">
+			<h4 style="display:inline">Integrating Quality Control</h4><br/>
+			<h4 style="display:inline">and Pipeline Deployment</h4><br/>
+			<h4 style="display:inline">in the Cloud</h4>
 			<p>
-				<small><a href="https://gkiar.github.io">Greg Kiar</a> &amp; the <a href="https://ohbm.github.io/hackathon2017/">BrainHack Team</a></small>
+				<small>Gregory Kiar, Lee Tirrell, Amanda Easson, Andrew Doyle,<br/> Chris Gorgolewski, Anisha Keshavan</small>
 			</p>
 		</section>
 
 		<section id="toc" data-background="img/bg.png">
 			<h2>Outline</h2>
 			<ul>
-				<li>the <a href="#/objective">objective</a></li>
-				<li>the <a href="#/tools">tools</a></li>
-				<ul>
-					<li>github</li>
-					<li>docker</li>
-					<li>jupyter</li>
-					<li>...</li>
-				</ul>
-				<li>analyze connectomes</li>
-				<li>visualize the results</li>
+				<li>our background</li>
+				<li>our pieces</li>
+				<li>our sum</li>
+				<li>our plan</li>
 		</section>
 	</section>
 
 <!-- ******************************* -->
 
-	<section id="objective" data-background="img/bg.png">
-		<section id="landscape" data-background="img/bg.png">
-			<h2>we have...</h2>
-			<ul>
-				<li>an <em>overwhelming</em> amount of neuroscience data</li>
-				<li>a <em>myriad</em> of tools</li>
-				<li>a growing need for (basic) <em>coding</em></li>
-			</ul>
+	<section data-background="img/bg.png">
+		<section data-background="img/bg.png">
+			<h2>our background</h2>
 		</section>
 
-		<section id="desiderata" data-background="img/bg.png">
-			<h2>... and we want to...</h2>
+		<section data-background="img/bg.png">
 			<ul>
-				<li><em>process</em> lots of data</li>
-				<li>perform <em>robust</em> analyses</li>
-				<li><em>learn</em> and <em>communicate</em> our results</li>
-				<li>share our <em>methods</em></li>
-				<li>enable others to <em>build upon our work</em></li>
-			</ul>
-		</section>
-
-		<section id="challenges" data-background="img/bg.png">
-			<h2> ..., but...</h2>
-			<ul>
-				<li>code can be <em>unorganized</em> and <em>hard to use</em></li>
-				<li>tools give different answers across <em>versions</em></li>
-				<li>differences across <em>operating systems</em> are confusing</li>
-				<li><em>reproducing analyses</em> is often difficult</li>
-				<li>this sounds like it requires lots of <em>programming</em></li>
-			</ul>
-		</section>
-
-		<section id="plan" data-background="img/bg.png">
-			<h2> ...; thankfully...</h2>
-			<ul>
-				<li>tools exist to <em>help</em> with these problems</li>
-				<li>we're in BrainHack 101 <img style="border:0px; margin:-8px 0px" width="50" data-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f60f.png" alt=":smirk:"></li>
+				<li>we have access to <em>incredible</em> datasets</li>
+				<li>a <em>myriad</em> of automatic and interactive tools</li>
+				<li>access to the scalable <em>clouds</em> for computation</li>
 			</ul>
 		</section>
 	</section>
 
 <!-- ******************************* -->
 
-	<section id="tools" data-background="img/bg.png">
-		<section id="recap-challenges" data-background="img/bg.png">
-			<h2>major challenges</h2>
-			<ol>
-				<li>code is often <em>unorganized</em>, <em>unversioned</em>, and <em>undocumented</em></li>
-				<li>installation is difficult and <em>operating systems</em> can cause differences</li>
-				<li><em>communicating</em> and <em>reproducing</em> analyses is often difficult or incomplete</li>
-			</ol>
+	<section data-background="img/bg.png">
+		<section  data-background="img/bg.png">
+			<h2>our pieces</h2>
 		</section>
 
-		<section id="process" data-background="img/bg.png">
-			<h2>approach</h2>
-				<pre><code class="hljs">1. FOR (each_challenge):
-2.  discuss_problem;
-3.  describe_solution;
-4.  learn_about_tools;
-5.  practice;
-6. ENDFOR</code></pre>
+		<section data-background="img/bg.png">
+			<h2>MindControl</h2>
+			<iframe src="http://mindcontrol.herokuapp.com/" width="100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:2px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+		</section>
+
+		<section data-background="img/bg.png">
+			<h2>Deep-QC</h2>
+			<img style="border:0px; margin:-17px 5px" height="350" data-src="http://parse.ele.tue.nl/cluster/2/CNNArchitecture.jpg" alt="cnn"/>
+			<p>CNN model for automatic quality control</p>
+		</section>
+
+		<section data-background="img/bg.png">
+			<h2>ABIDE</h2>
+			<iframe src="http://preprocessed-connectomes-project.org/abide/" width="100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:2px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+		</section>
+
+		<section data-background="img/bg.png">
+			<h2>FreeSurfer</h2>
+			<iframe src="https://surfer.nmr.mgh.harvard.edu/" width="100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:2px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+		</section>
+
+		<section data-background="img/bg.png">
+			<h2>Clowder</h2>
+			<img style="border:0px; margin:-17px 5px" height="350" data-src="http://parse.ele.tue.nl/cluster/2/CNNArchitecture.jpg" alt="cnn"/>
+			<p>CNN model for automatic quality control</p>
 		</section>
 	</section>
 
