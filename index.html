@@ -97,7 +97,7 @@
 
 		<section data-background="img/bg.png">
 			<h2>ABIDE</h2>
-			<img style="border:2px solid #666; margin:-17px 5px" height="350" data-src="http://fcon_1000.projects.nitrc.org/indi/abide/abide_logo.jpg" alt="cnn"/>
+			<img style="border:2px solid #666; margin:-17px 5px" height="350" data-src="img/ohbm_abide.png" alt="abide"/>
 		</section>
 
 		<section data-background="img/bg.png">
@@ -133,6 +133,13 @@
 
 		<section data-background="img/bg.png">
 			<h3><a href="https://paper.dropbox.com/doc/ClowdControl-WVCurcGb9jHSZRiUlSILd#:uid=597166455793112180864009&h2=Demo">demo</a></h3>
+		</section>
+
+		<section data-background="img/bg.png">
+			<h3>one line to run it all</h3>
+			<pre><code class="hljs">
+docker run -ti --rm -v ${PWD}/.mindcontrol/:/home/mindcontrol/mindcontrol/.meteor/local -v ${PWD}/credentials.csv:/home/mindcontrol/credentials.csv -v ${PWD}/credentials:/home/mindcontrol/.aws/credentials -v ${BIDS_DIR}:/bids -p 3000:3000 -p 8080:8080 clowdcontrol/mindcontrol:v${version}
+			</code></pre>
 		</section>
 	</section>
 
